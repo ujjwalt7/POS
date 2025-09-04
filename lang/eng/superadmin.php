@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'menu' => [
+        'restaurants' => 'Restaurants',
+    ],
+    'regenerateQrCode' => 'Regenerate QR Codes',
+    'domainChanged' => 'It seems you have changed the domain. You need to regenerate the qr codes so that qr codes can have new url',
+    'qrCodesRegenerated' => 'QR Codes Regenerated for new domain',
+    'raiseSupportTicket' => 'Raise Support Ticket',
+    'generateCredentials' => 'Generate Credentials',
+    'pusherBeams' => 'Pusher Beams (Browser Push Notification)',
+    'pusherChannels' => 'Pusher Channels (Live Page Update)',
+    'pusherDashboard' => 'Pusher Dashboard',
+    'pusherChannelsDescription' => 'Configure Pusher Channels for real-time page updates (Laravel broadcasting).',
+    'pusherBeamsDescription' => 'Configure Pusher Beams for browser push notifications.',
+    'desktopApplicationSettings' => 'Desktop Application Settings',
+    'desktopApplicationSettingsDescription' => 'Provide download URLs for Windows, Mac, and Linux desktop applications.',
+    'desktopApplicationSettingsDescription2' => '1. Empty the download field if you do not want your customers to download the application.',
+    'windowsApplication' => 'Windows Application',
+    'downloadUrl' => 'Download URL',
+    'resetToDefault' => 'Reset to Default',
+    'downloadNow' => 'Download Now',
+    'macIntelApplication' => 'Mac Intel Application',
+    'macSiliconApplication' => 'Mac Silicon Application',
+    'linuxApplication' => 'Linux Application',
+    'saveAllSettings' => 'Save All Settings',
+    'saving' => 'Saving...',
+    'desktopApplicationSettingsNote' => 'Please note that the desktop application is currently in beta. Some features may not function as intended, and you may encounter unexpected issues or bugs. We appreciate your patience and feedback as we continue to improve the application. Feel free to try it out and let us know about your experience.',
+];
